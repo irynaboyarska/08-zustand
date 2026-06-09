@@ -123,9 +123,6 @@ export const NoteForm = () => {
             })
           }
         >
-          <option value="" disabled>
-            --Choose tag--
-          </option>
           <option value="Todo">Todo</option>
           <option value="Work">Work</option>
           <option value="Personal">Personal</option>

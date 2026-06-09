@@ -17,7 +17,7 @@ interface NoteStore {
 const initialDraft: NoteDraft = {
   title: '',
   content: '',
-  tag: '',
+  tag: 'Todo',
 };
 
 export const useNoteStore = create<NoteStore>()(
